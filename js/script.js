@@ -62,7 +62,7 @@
   }
 
   // ---- Highlight the nav link for the section in view --------------
-  const links = Array.from(document.querySelectorAll(".bar nav a"));
+  const links = Array.from(document.querySelectorAll('.bar nav a[href^="#"]'));
   const sections = links
     .map((a) => document.querySelector(a.getAttribute("href")))
     .filter(Boolean);
