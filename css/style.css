@@ -212,6 +212,7 @@ section > h2 { font-size: 1.15rem; margin-bottom: 20px; font-weight: 600; }
 .gallery-intro h1 { font-size: clamp(1.8rem, 6vw, 3rem); font-weight: 800; letter-spacing: -0.02em; color: #fff; }
 .gallery-intro .title { font-size: 1.05rem; color: var(--amber); margin: 8px 0 16px; }
 .gallery-intro .about { margin: 0; }
+.gallery-intro .cta { margin: 20px 0 0; }
 .gallery { display: grid; gap: 20px; padding-top: 32px; }
 .shot { margin: 0; padding: 12px; }
 .shot a { display: block; border-radius: 6px; overflow: hidden; border: 1px solid var(--border); }
