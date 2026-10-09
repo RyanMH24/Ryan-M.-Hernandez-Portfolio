@@ -164,7 +164,6 @@ section > h2 { font-size: 1.15rem; margin-bottom: 20px; font-weight: 600; }
 .stats span { font-size: .8rem; color: var(--muted); }
 
 /* ---- About ------------------------------------------------------ */
-.about { max-width: 72ch; }
 .about p { margin: 0 0 14px; }
 .hl { color: var(--amber); }
 
