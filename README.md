@@ -20,6 +20,7 @@ Personal portfolio for Ryan M. Hernandez, an Infrastructure Operations Analyst a
 ## Featured projects
 
 - **[5Y54DM1N5](https://github.com/RyanMH24/5Y54DM1N5)**: a self-paced sysadmin training platform with a six-week curriculum, simulated Linux/PowerShell terminal labs, and mock Okta, Jamf, AD, and ServiceNow-style consoles. Built with Next.js, React, and TypeScript. [Try it live](https://ryanmh24.github.io/Ryan-M.-Hernandez-Portfolio/5y54dm1n5/)
+- **[W0RKFL0W5](https://github.com/RyanMH24/W0RKFL0W5)**: self-hosted n8n automation for employee onboarding and offboarding across Okta, Slack, and Jira, with a Docker Compose stack, GitHub Actions CI running end-to-end tests, and architecture decision records. [Architecture](https://github.com/RyanMH24/W0RKFL0W5/blob/main/docs/architecture.md)
 - **[5CR1PT3R5](https://github.com/RyanMH24/5CR1PT3R5)**: a personal AI engineering team of 25 agents, built with Claude Code, that turns plain-English requests into tested, reviewed code. [Screenshots](https://ryanmh24.github.io/Ryan-M.-Hernandez-Portfolio/5cr1pt3r5.html)
 - **Project Attenborough** (Apple): an internal reporting tool that cut executive report creation from 10 days to 2.
 - **Device Refresh Workflow** (Comerica Bank): Microsoft Forms + Power Automate automation for hardware upgrades.

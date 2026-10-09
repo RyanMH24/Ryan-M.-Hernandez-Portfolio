@@ -202,6 +202,23 @@
             <a href="https://github.com/RyanMH24/5Y54DM1N5" target="_blank" rel="noopener">[source]</a></p>
         </article>
         <article class="card project">
+          <p class="org">Independent Project · IT Automation</p>
+          <h3><span class="exec">▸</span> W0RKFL0W5</h3>
+          <p>Self-hosted n8n automation that onboards and offboards employees across Okta, Slack, and Jira from a
+            single HR request, built like production software with feature branches, pull requests, and GitHub Actions CI.</p>
+          <ul class="project-details">
+            <li>Onboarding stages the Okta account for the start date, grants role-based groups from an access policy, opens a Jira setup ticket, and announces the hire in Slack.</li>
+            <li>Offboarding records the person's access in a Jira audit ticket before revoking sessions and deactivating the account.</li>
+            <li>Failures retry, then raise a Jira incident and a Slack alert; repeated requests never create duplicate accounts, tickets, or messages.</li>
+            <li>Docker Compose stack on Postgres; CI runs a workflow linter, 23 unit tests, and 8 end-to-end tests against mocks of the real APIs. Design choices documented in 6 architecture decision records.</li>
+          </ul>
+          <ul class="tags">
+            <li>n8n</li><li>Okta</li><li>Slack</li><li>Jira</li><li>Docker</li><li>GitHub Actions</li><li>Node.js</li>
+          </ul>
+          <p class="links"><a href="https://github.com/RyanMH24/W0RKFL0W5" target="_blank" rel="noopener">[source]</a>
+            <a href="https://github.com/RyanMH24/W0RKFL0W5/blob/main/docs/architecture.md" target="_blank" rel="noopener">[architecture &amp; ADRs]</a></p>
+        </article>
+        <article class="card project">
           <p class="org">Comerica Bank</p>
           <h3><span class="exec">▸</span> Multi-Site Office Buildouts</h3>
           <p>Delivered IT setup for corporate office buildouts in Phoenix, AZ (Biltmore), San Diego,
