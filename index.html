@@ -45,11 +45,11 @@
       <span class="signal" aria-hidden="true"><i></i><b></b></span>
       <p class="cmd"><span class="prompt">ryan@portfolio:~$</span> whoami</p>
       <h1>Ryan M. Hernandez</h1>
-      <p class="title">Infrastructure Operation Analyst III &amp; Endpoint Specialist <span class="muted">// Los Angeles, CA</span></p>
+      <p class="title">Infrastructure Operations Analyst III &amp; Endpoint Specialist <span class="muted">// Los Angeles, CA</span></p>
       <p class="career-focus"><strong>Career focus:</strong> Systems Administrator · Endpoint Engineer · IT Infrastructure Engineer</p>
 
       <!-- EDIT: taglines are typed out one after another. Separate them with | -->
-      <p class="typed" data-taglines="Sole Mac technician supporting 30+ banking centers across SoCal.|Jamf Pro · SCCM/MECM · Okta · Active Directory · ServiceNow.|Automating repetitive work|Bilingual support in English y Español.">
+      <p class="typed" data-taglines="Sole Mac technician supporting 30+ banking centers across SoCal.|Jamf Pro · SCCM/MECM · Okta · Active Directory · ServiceNow.|Automating repetitive IT work with n8n, Power Automate, and scripts.|Bilingual support in English y Español.">
         <span class="typed-text">Sole Mac technician supporting 30+ banking centers across SoCal.</span><span class="cursor" aria-hidden="true">█</span>
       </p>
 
@@ -80,6 +80,11 @@
           report creation from 10 days to 2 days. At Comerica, I automated our device refresh process with Microsoft Forms
           and Power Automate. I'm a Jamf Certified Associate, hold the Google Cybersecurity Professional Certificate,
           and support users in both English and Spanish.</p>
+        <p>Outside of work, I build projects that put these skills into practice:
+          <span class="hl">W0RKFL0W5</span> automates employee onboarding and offboarding across Okta, Slack, and Jira;
+          <span class="hl">5Y54DM1N5</span> is a hands-on training platform for new systems administrators; and
+          <span class="hl">5CR1PT3R5</span> is a team of AI agents I built with Claude Code that turns plain-English
+          requests into tested code. Each one is built with Git, pull requests, and automated tests.</p>
       </div>
     </section>
 
@@ -111,21 +116,29 @@
         <div class="card">
           <h3><span class="dir">dev-automation/</span></h3>
           <ul class="tags">
-            <li>Python</li><li>HTML</li><li>CSS</li>
-            <li>Power Automate</li><li>Microsoft Forms</li>
+            <li>Python</li><li>PowerShell</li><li>zsh</li><li>Node.js</li><li>TypeScript</li>
+            <li>n8n</li><li>REST APIs</li><li>Power Automate</li><li>Microsoft Forms</li>
+            <li>HTML</li><li>CSS</li><li>React</li><li>Next.js</li><li>Tailwind CSS</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3><span class="dir">devops/</span></h3>
+          <ul class="tags">
+            <li>Git &amp; GitHub</li><li>GitHub Actions (CI/CD)</li><li>Docker</li><li>Docker Compose</li>
+            <li>Pull Request Workflow</li><li>Automated Testing</li>
           </ul>
         </div>
         <div class="card">
           <h3><span class="dir">ai-productivity/</span></h3>
           <ul class="tags">
-            <li>Microsoft Copilot</li><li>Claude</li><li>ChatGPT</li>
+            <li>Microsoft Copilot</li><li>Claude</li><li>Claude Code</li><li>AI Agents</li><li>ChatGPT</li>
             <li>Government-Approved AI Models</li><li>AI-Assisted Workflows</li>
           </ul>
         </div>
         <div class="card">
           <h3><span class="dir">platforms/</span></h3>
           <ul class="tags">
-            <li>MacOS</li><li>Windows 10 & 11</li><li>iOS</li><li>iPadOS</li><li>WatchOS</li>
+            <li>macOS</li><li>Windows 10 &amp; 11</li><li>iOS</li><li>iPadOS</li><li>watchOS</li>
           </ul>
         </div>
         <div class="card">
@@ -150,39 +163,21 @@
       <h2 class="cmd"><span class="prompt">$</span> ls projects/</h2>
       <div class="grid projects">
         <article class="card project">
-          <p class="org">Apple · IT Governance &amp; Planning</p>
-          <h3><span class="exec">▸</span> Project Attenborough</h3>
-          <p>An internal web tool that turned raw report data into polished HTML reports for managers and
-            senior executives, <strong>cutting report creation time from 10 days to 2 (an 80% reduction)</strong>.</p>
-          <ul class="tags">
-            <li>Python</li><li>HTML</li><li>CSS</li><li>Reporting</li>
-          </ul>
-        </article>
-        <article class="card project">
-          <p class="org">Comerica Bank</p>
-          <h3><span class="exec">▸</span>Device Refresh Workflow</h3>
-          <p>A Microsoft Forms and Power Automate workflow that surveys users and automatically emails
-            those eligible for a hardware upgrade.</p>
-          <ul class="tags">
-            <li>Power Automate</li><li>Microsoft Forms</li><li>Automation</li>
-          </ul>
-        </article>
-        <article class="card project">
-          <p class="org">Independent Project · AI Developer Tools</p>
-          <h3><span class="exec">▸</span> 5CR1PT3R5</h3>
-          <p>A tool I built using Claude Code: a personal AI engineering team of 25 agents, one per role and
-            programming language, that turn plain-English requests into tested, reviewed code. A pixel-art office
-            dashboard shows each agent's live progress.</p>
+          <p class="org">Independent Project · IT Automation</p>
+          <h3><span class="exec">▸</span> W0RKFL0W5</h3>
+          <p>Self-hosted n8n automation that onboards and offboards employees across Okta, Slack, and Jira from a
+            single HR request, built like production software with feature branches, pull requests, and GitHub Actions CI.</p>
           <ul class="project-details">
-            <li>Sandboxed: each agent works only in its own folder and runs only approved commands.</li>
-            <li>Routes work to the cheapest capable Claude model, with a spending cap per job.</li>
-            <li>Windows and macOS, PowerShell and zsh; 44 automated tests.</li>
+            <li>Onboarding stages the Okta account for the start date, grants role-based groups from an access policy, opens a Jira setup ticket, and announces the hire in Slack.</li>
+            <li>Offboarding records the person's access in a Jira audit ticket before revoking sessions and deactivating the account.</li>
+            <li>Failures retry, then raise a Jira incident and a Slack alert; repeated requests never create duplicate accounts, tickets, or messages.</li>
+            <li>Docker Compose stack on Postgres; CI runs a workflow linter, 23 unit tests, and 8 end-to-end tests against mocks of the real APIs. Design choices documented in 6 architecture decision records.</li>
           </ul>
           <ul class="tags">
-            <li>Claude Code</li><li>AI Agents</li><li>TypeScript</li><li>Node.js</li><li>PowerShell</li><li>zsh</li>
+            <li>n8n</li><li>Okta</li><li>Slack</li><li>Jira</li><li>Docker</li><li>GitHub Actions</li><li>Node.js</li>
           </ul>
-          <p class="links"><a href="5cr1pt3r5.html">[view screenshots]</a>
-            <a href="https://github.com/RyanMH24/5CR1PT3R5" target="_blank" rel="noopener">[try out demo]</a></p>
+          <p class="links"><a href="https://github.com/RyanMH24/W0RKFL0W5" target="_blank" rel="noopener">[source]</a>
+            <a href="https://github.com/RyanMH24/W0RKFL0W5/blob/main/docs/architecture.md" target="_blank" rel="noopener">[architecture &amp; ADRs]</a></p>
         </article>
         <article class="card project">
           <p class="org">Independent Project · IT Training Platform</p>
@@ -202,21 +197,30 @@
             <a href="https://github.com/RyanMH24/5Y54DM1N5" target="_blank" rel="noopener">[source]</a></p>
         </article>
         <article class="card project">
-          <p class="org">Independent Project · IT Automation</p>
-          <h3><span class="exec">▸</span> W0RKFL0W5</h3>
-          <p>Self-hosted n8n automation that onboards and offboards employees across Okta, Slack, and Jira from a
-            single HR request, built like production software with feature branches, pull requests, and GitHub Actions CI.</p>
+          <p class="org">Independent Project · AI Developer Tools</p>
+          <h3><span class="exec">▸</span> 5CR1PT3R5</h3>
+          <p>A tool I built using Claude Code: a personal AI engineering team of 25 agents, one per role and
+            programming language, that turn plain-English requests into tested, reviewed code. A pixel-art office
+            dashboard shows each agent's live progress.</p>
           <ul class="project-details">
-            <li>Onboarding stages the Okta account for the start date, grants role-based groups from an access policy, opens a Jira setup ticket, and announces the hire in Slack.</li>
-            <li>Offboarding records the person's access in a Jira audit ticket before revoking sessions and deactivating the account.</li>
-            <li>Failures retry, then raise a Jira incident and a Slack alert; repeated requests never create duplicate accounts, tickets, or messages.</li>
-            <li>Docker Compose stack on Postgres; CI runs a workflow linter, 23 unit tests, and 8 end-to-end tests against mocks of the real APIs. Design choices documented in 6 architecture decision records.</li>
+            <li>Sandboxed: each agent works only in its own folder and runs only approved commands.</li>
+            <li>Routes work to the cheapest capable Claude model, with a spending cap per job.</li>
+            <li>Windows and macOS, PowerShell and zsh; 44 automated tests.</li>
           </ul>
           <ul class="tags">
-            <li>n8n</li><li>Okta</li><li>Slack</li><li>Jira</li><li>Docker</li><li>GitHub Actions</li><li>Node.js</li>
+            <li>Claude Code</li><li>AI Agents</li><li>TypeScript</li><li>Node.js</li><li>PowerShell</li><li>zsh</li>
           </ul>
-          <p class="links"><a href="https://github.com/RyanMH24/W0RKFL0W5" target="_blank" rel="noopener">[source]</a>
-            <a href="https://github.com/RyanMH24/W0RKFL0W5/blob/main/docs/architecture.md" target="_blank" rel="noopener">[architecture &amp; ADRs]</a></p>
+          <p class="links"><a href="5cr1pt3r5.html">[view screenshots]</a>
+            <a href="https://github.com/RyanMH24/5CR1PT3R5" target="_blank" rel="noopener">[try out demo]</a></p>
+        </article>
+        <article class="card project">
+          <p class="org">Comerica Bank</p>
+          <h3><span class="exec">▸</span> Device Refresh Workflow</h3>
+          <p>A Microsoft Forms and Power Automate workflow that surveys users and automatically emails
+            those eligible for a hardware upgrade.</p>
+          <ul class="tags">
+            <li>Power Automate</li><li>Microsoft Forms</li><li>Automation</li>
+          </ul>
         </article>
         <article class="card project">
           <p class="org">Comerica Bank</p>
@@ -226,6 +230,24 @@
             the network team and vendors to get each site operational on schedule.</p>
           <ul class="tags">
             <li>Deployment</li><li>Networking</li><li>Vendor Coordination</li>
+          </ul>
+        </article>
+        <article class="card project">
+          <p class="org">Apple · IT Governance &amp; Planning</p>
+          <h3><span class="exec">▸</span> Project Attenborough</h3>
+          <p>An internal web tool that turned raw report data into polished HTML reports for managers and
+            senior executives, <strong>cutting report creation time from 10 days to 2 (an 80% reduction)</strong>.</p>
+          <ul class="tags">
+            <li>Python</li><li>HTML</li><li>CSS</li><li>Reporting</li>
+          </ul>
+        </article>
+        <article class="card project">
+          <p class="org">Apple · IT Governance &amp; Planning</p>
+          <h3><span class="exec">▸</span> Governance Dashboards &amp; Tools</h3>
+          <p>Internal web tools, dashboards, and reports supporting security, privacy, compliance audit,
+            and access review work, giving leadership visibility into IT planning and governance.</p>
+          <ul class="tags">
+            <li>Python</li><li>HTML</li><li>CSS</li><li>Dashboards</li>
           </ul>
         </article>
         <article class="card project">
@@ -241,15 +263,6 @@
           </ul>
           <ul class="tags">
             <li>Ubiquiti</li><li>Ring</li><li>Networking</li><li>Smart Home</li><li>Infrastructure</li>
-          </ul>
-        </article>
-        <article class="card project">
-          <p class="org">Apple · IT Governance &amp; Planning</p>
-          <h3><span class="exec">▸</span> Governance Dashboards &amp; Tools</h3>
-          <p>Internal web tools, dashboards, and reports supporting security, privacy, compliance audit,
-            and access review work, giving leadership visibility into IT planning and governance.</p>
-          <ul class="tags">
-            <li>Python</li><li>HTML</li><li>CSS</li><li>Dashboards</li>
           </ul>
         </article>
       </div>
