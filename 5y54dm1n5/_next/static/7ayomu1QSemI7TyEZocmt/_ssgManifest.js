@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fconsoles\u002F[id]","\u002Fglossary\u002F[id]","\u002Flabs\u002F[id]","\u002Flessons\u002F[id]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
