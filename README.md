@@ -1,6 +1,10 @@
-# Ryan M. Hernandez — IT Portfolio
+<p align="center">
+  <img src="img/readme-banner.png" alt="Ryan M. Hernandez: IT Infrastructure & Endpoint Specialist" width="800">
+</p>
 
-**Live site:** https://ryanmh24.github.io/Ryan-M.-Hernandez-Portfolio/
+<p align="center">
+  <a href="https://ryanmh24.github.io/Ryan-M.-Hernandez-Portfolio/"><strong>View the live site</strong></a>
+</p>
 
 Personal portfolio for Ryan M. Hernandez, an Infrastructure Operations Analyst and endpoint specialist with 7+ years of IT support and systems experience at Apple and Comerica Bank. The site is terminal-themed and built from plain HTML, CSS, and JavaScript, so there's nothing to install or build.
 
@@ -34,7 +38,7 @@ Personal portfolio for Ryan M. Hernandez, an Infrastructure Operations Analyst a
 | `5y54dm1n5/` | Static build of the 5Y54DM1N5 live demo (generated; don't edit by hand) |
 | `css/style.css` | Terminal theme (colors are at the top under `:root`) |
 | `js/script.js` | Typing effect, nav highlight, copy-email button |
-| `img/` | Project screenshots |
+| `img/` | Project screenshots and the README banner |
 | `resume.pdf` | Downloadable resume |
 | `favicon.svg` | Browser tab icon |
 | `.nojekyll` | Tells GitHub Pages to serve the demo's `_next/` folder as-is |
