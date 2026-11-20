@@ -20,3 +20,10 @@
 - The **more restrictive** of share and NTFS permissions applies.
 - Get **approval** before granting access, and note who approved.
 - Adding someone to a group doesn't take effect until a new logon.
+
+## Evidence
+*Verification output from the lab (screenshots).*
+
+![Share and NTFS permissions](../screenshots/05-share-and-ntfs-permissions.png)
+![Share permission for the group](../screenshots/05-share-permission-finance-share.png)
+![Group membership after approval](../screenshots/05-kevin-in-finance-share.png)

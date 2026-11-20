@@ -14,9 +14,11 @@ A hands-on lab I built to practice the day-to-day work of a Help Desk Technician
 | VM resources | 4 vCPUs, 6 GB RAM, Guest Additions installed |
 | Tools used | Active Directory Users and Computers (ADUC), Group Policy Management (GPMC), Event Viewer, Command Prompt, File Explorer / sharing |
 
-## What I built
-- **5 organizational units:** Sales, Finance, IT, HR, Marketing, plus a Disabled Users OU
-- **Users:** 10 test users (two per department) plus a new hire
+## Lab setup
+The starting directory (the department OUs and ten test users) was seeded with `dsadd` commands to save time. The ticket work below was then done in ADUC, GPMC and Event Viewer, with results checked from the command line.
+
+- **Organizational units:** Sales, Finance, IT, HR, Marketing, plus a Disabled Users OU
+- **Users:** 10 test users (two per department) plus a new hire created during ticket 3
 - **Security groups:** `Sales-Team`, `Finance-Share`
 - **File share:** `\\DC01\Finance` with share and NTFS permissions assigned to a group
 - **Account lockout policy:** lockout after 3 failed attempts (30-minute duration and window)
@@ -53,3 +55,8 @@ A hands-on lab I built to practice the day-to-day work of a Help Desk Technician
 ## Notes
 - Windows Server is an evaluation copy. The VM disk and ISO are not included in this repository.
 - No credentials or real company data appear anywhere in this project.
+
+## Screenshots
+Each ticket page ends with an Evidence section showing verification output from the lab. Starting directory:
+
+![OUs and users](screenshots/00-lab-ous-and-users.png)

@@ -25,3 +25,11 @@ A new domain has the lockout threshold at 0, meaning accounts never lock. I set 
 - Event 4625 is a failed logon. Event 4740 is a lockout.
 - On a real ticket, the Caller Computer Name points to the device to check, remotely, for a stale saved password (Credential Manager, mapped drives, phone mail, scheduled tasks).
 - In the 4740 event, the **Subject** (the domain controller) is not the locked-out account.
+
+## Evidence
+*Verification output from the lab (screenshots).*
+
+![Lockout threshold applied](../screenshots/02-lockout-policy-applied.png)
+![Wrong-password errors, then the account locked out](../screenshots/02-lockout-error-1326-1909.png)
+![Event 4740 in Event Viewer](../screenshots/02-event-4740-event-viewer.png)
+![Event 4740 details from the command line](../screenshots/02-event-4740-text.png)

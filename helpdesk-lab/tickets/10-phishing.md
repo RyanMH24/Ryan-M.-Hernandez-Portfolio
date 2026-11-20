@@ -21,3 +21,8 @@
 
 ## Takeaway
 Contain first (reset the password), then report, and let the right team handle company-wide actions.
+
+## Evidence
+*Verification output from the lab (screenshot).*
+
+![Password reset and forced change confirmed](../screenshots/10-password-reset-verified.png)

@@ -20,3 +20,8 @@
 ## Takeaways
 - Don't mark a ticket Resolved while parts are pending. Mark it Pending and say who owns what.
 - Verify your own work after a change.
+
+## Evidence
+*Verification output from the lab (screenshot).*
+
+![Sales OU with the new user and the Sales-Team group](../screenshots/03-sales-ou-users-and-group.png)

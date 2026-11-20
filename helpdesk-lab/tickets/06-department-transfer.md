@@ -14,3 +14,8 @@
 - Moving an OU does **not** change group membership. Remove old groups and add new ones yourself.
 - Timing matters: remove old access on the last day in the old role, and give new access when the new role starts, unless HR says otherwise.
 - The user needs a new logon to pick up the new group.
+
+## Evidence
+*Verification output from the lab (screenshot).*
+
+![OU, title, department, manager and groups after the transfer](../screenshots/06-marcus-transfer-verified.png)

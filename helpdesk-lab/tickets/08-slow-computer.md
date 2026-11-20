@@ -23,3 +23,8 @@ Nothing was overloaded, which is a valid result. I'd then look at the applicatio
 | Disk at 100% | Updates, scans or a failing drive | Wait or clean up, check disk health |
 | Under about 10% disk free | Full drive | Clear temp files, move large files |
 | Memory above about 90% | Too many apps or too little RAM | Close apps, trim startup, consider an upgrade |
+
+## Evidence
+*Verification output from the lab (screenshot).*
+
+![Memory, disk and last boot time](../screenshots/08-memory-disk-boot-time.png)

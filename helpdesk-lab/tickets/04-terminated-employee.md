@@ -22,3 +22,8 @@
 - **Disable, don't delete:** the mailbox, files and audit history are needed, and deleting is permanent.
 - Resetting the password blocks any saved credentials, and the order and speed matter on a termination.
 - AD is only part of offboarding. The other systems are where access is easily missed.
+
+## Evidence
+*Verification output from the lab (screenshot).*
+
+![Account in Disabled Users, disabled, with description](../screenshots/04-ben-jones-disabled-description.png)
