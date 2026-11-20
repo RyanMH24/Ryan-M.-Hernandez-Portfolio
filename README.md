@@ -39,7 +39,6 @@ Personal portfolio for Ryan M. Hernandez, an Infrastructure Operations Analyst a
 | `css/style.css` | Terminal theme (colors are at the top under `:root`) |
 | `js/script.js` | Typing effect, nav highlight, copy-email button |
 | `img/` | Project screenshots and the README banner |
-| `resume.pdf` | Downloadable resume |
 | `favicon.svg` | Browser tab icon |
 | `.nojekyll` | Tells GitHub Pages to serve the demo's `_next/` folder as-is |
 
